@@ -1,0 +1,24 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    background-image: url("chmury.jpg");
+    background-size: cover;
+}
+  
+div {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.box div {
+    width: 100px;
+    height: 100px;
+  }

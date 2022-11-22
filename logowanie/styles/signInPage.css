@@ -1,0 +1,31 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background-image: url("chmury.jpg");
+  background-size: cover;
+}
+
+div {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+/*# sourceMappingURL=signInPage.css.map */
