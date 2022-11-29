@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="box">
-        <form action="signIn.php" method="post">
+        <form action="index.php" method="post">
             <label>Username</label>
             <input type="text" name="userName" id="">
             <label>E-mail</label>

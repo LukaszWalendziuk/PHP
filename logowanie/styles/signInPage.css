@@ -3,13 +3,15 @@ body {
   height: 100vh;
   background-image: url("chmury.jpg");
   background-size: cover;
+  overflow: hidden;
 }
 
 div {
   margin: auto;
-  width: 50%;
+  width: 10em;
   border: 3px solid black;
   padding: 10px;
+  font-size: 20px;
 }
 
 .box {
@@ -22,10 +24,7 @@ div {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.box div {
-  width: 100px;
-  height: 100px;
+  position: relative;
+  top: 40%;
 }
 /*# sourceMappingURL=signInPage.css.map */

@@ -18,32 +18,32 @@
   echo 'tak'
 ?>
 
-<form action="signIn.php" method="post">
-  <div class="Procedura">
-    <h1>Rejestracja</h1>
-    <p>Uzupełnij poniższe dane żeby utworzyć konto</p>
-    <hr>
+  <form action="signInPage.php" method="post">
+    <div class="Procedura">
+      <h1>Rejestracja</h1>
+      <h3>Uzupełnij poniższe dane żeby utworzyć konto</h3>
+      <hr>
 
-    <label for="nazwa"><b>Nazwa</b></label>
-    <input type="text" placeholder="Podaj Nazwe Użytkownika" name="nazwa" id="nazwa" required>
+      <label for="nazwa"><b>Nazwa</b></label>
+      <input type="text" placeholder="Podaj Nazwe Użytkownika" name="nazwa" id="nazwa" required>
 
-    <label for="email"><b>Email</b></label>
-    <input type="email" placeholder="Email" name="email" id="email" required>
+      <label for="email"><b>Email</b></label>
+      <input type="email" placeholder="Email" name="email" id="email" required>
 
-    <label for="haslo"><b>Podaj Hasło</b></label>
-    <input type="haslo" placeholder="Podaj Hasło" name="haslo" id="haslo" required>
-    
+      <label for="haslo"><b>Podaj Hasło</b></label>
+      <input type="haslo" placeholder="Podaj Hasło" name="haslo" id="haslo" required>
+      
 
-    <label for="haslo"><b>Podaj Hasło Ponownie</b></label>
-    <input type="haslo" placeholder="Podaj Hasło" name="haslo" id="haslo" required>
-    <hr>
+      <label for="haslo"><b>Podaj Hasło Ponownie</b></label>
+      <input type="haslo" placeholder="Podaj Hasło" name="haslo" id="haslo" required>
+      <hr>
 
-    <button type="submit" class="registerbtn" href="signPage.php"> Zarejestruj się</button>
-  </div>
+      <button type="submit" class="registerbtn" href="signPage.php"> Zarejestruj się</button>
+    </div>
 
-  <div class="container signin">
-  </div>
-</form>
+    <div class="container signin">
+    </div>
+  </form>
 
-</body>
+  </body>
 </html>

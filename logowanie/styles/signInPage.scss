@@ -3,22 +3,24 @@ body {
     height: 100vh;
     background-image: url("chmury.jpg");
     background-size: cover;
+    overflow: hidden;
 }
   
 div {
   margin: auto;
-  width: 50%;
+  width: 10em;
   border: 3px solid black;
   padding: 10px;
+  font-size: 20px;
 }
 
 .box {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 40%;
   }
+
+
   
-.box div {
-    width: 100px;
-    height: 100px;
-  }

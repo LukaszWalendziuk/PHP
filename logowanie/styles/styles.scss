@@ -50,7 +50,7 @@ hr {
 
 
 .registerbtn {
-  background-color: #04AA6D;
+  background-color: #ff63ff;
   color: white;
   padding: 16px 20px;
   margin: 8px 0;
@@ -71,12 +71,22 @@ a {
 
 
 label,h1,p {
-    color: white;
+    color: #ff63ff;
 }
+
+h3 {
+  color: white;
+}
+
+::placeholder {
+  color: rgb(0, 0, 0);
+  opacity: 1;
+}
+
 
 button_register:hover {
   
-  background-color: #4CAF50; /* Green */
+  background-color: #ff63ff; 
   border: none;
   color: white;
   padding: 15px 32px;
